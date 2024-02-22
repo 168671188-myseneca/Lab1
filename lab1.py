@@ -2,6 +2,11 @@
 
 from datetime import datetime, timedelta
 
+def helloWorld():
+    print("Hello world!")
+
+helloWorld()
+
 # Obtain the present date
 now = datetime.now()
 
@@ -19,3 +24,5 @@ timeDifference = now - birthday
 age_in_years = timeDifference.days // 365
 
 print(f"You're {age_in_years} years old!")
+
+
